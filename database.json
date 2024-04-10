@@ -1,177 +1,183 @@
 {
-    "users": [
+  "users": [
     {
-        "id": 1,
-        "fullName": "Willie Nelson",
-        "email": "dstoade0@cornell.edu",
-        "cohort": 70
+      "id": 1,
+      "fullName": "Willie Nelson",
+      "email": "dstoade0@cornell.edu",
+      "cohort": 70
     },
     {
-        "id": 2,
-        "fullName": "Bobby Smith",
-        "email": "bigbobbysmith@harvard.edu",
-        "cohort": 69
+      "id": 2,
+      "fullName": "Bobby Smith",
+      "email": "bigbobbysmith@harvard.edu",
+      "cohort": 69
     },
     {
-        "id": 3,
-        "fullName": "Sophia Thomas",
-        "email": "ststst@yale.edu",
-        "cohort": 32
+      "id": 3,
+      "fullName": "Sophia Thomas",
+      "email": "ststst@yale.edu",
+      "cohort": 32
     },
     {
-        "id": 4,
-        "fullName": "Anna Joy",
-        "email": "annajoyjoy@duke.edu",
-        "cohort": 43
+      "id": 4,
+      "fullName": "Anna Joy",
+      "email": "annajoyjoy@duke.edu",
+      "cohort": 43
     },
     {
-        "id": 5,
-        "fullName": "Mr. Williams",
-        "email": "mrwilliams12@gmail.com",
-        "cohort": 12
+      "id": 5,
+      "fullName": "Mr. Williams",
+      "email": "mrwilliams12@gmail.com",
+      "cohort": 12
+    },
+    {
+      "email": "willwillwill@gmail.com",
+      "fullName": "Will",
+      "cohort": 24,
+      "id": 6
     }
-    ],
-    "posts": [
-        {
-            "id": 1,
-            "date": "12-23-24",
-            "title": "Boy Meets World",
-            "body": "Text Text Text Text Text Text Text Text",
-            "topicId": 3,
-            "userId": 1
-        },
-        {
-            "id": 2,
-            "date": "12-24-24",
-            "title": "Girl Meets World",
-            "body": "Text Text Text Text Text Text Text Text",
-            "topicId": 2,
-            "userId": 2
-        },
-        {
-            "id": 3,
-            "date": "12-24-24",
-            "title": "Bug City",
-            "body": "Text Text Text Text Text Text Text Text",
-            "topicId": 5,
-            "userId": 3
-        },
-        {
-            "id": 4,
-            "date": "12-25-24",
-            "title": "INFINITE LOOP",
-            "body": "Text Text Text Text Text Text Text Text",
-            "topicId": 4,
-            "userId": 4
-        },
-        {
-            "id": 5,
-            "date": "12-25-24",
-            "title": "Am I the Best Programmer?",
-            "body": "Text Text Text Text Text Text Text Text",
-            "topicId": 1,
-            "userId": 5
-        },
-        {
-            "id": 6,
-            "date": "12-26-24",
-            "title": "First Post",
-            "body": "Text Text Text Text Text Text Text Text",
-            "topicId": 6,
-            "userId": 1
-        }
-    ],
-    "topics": [
-        {
-            "id": 1,
-            "type": "Happy"
-        },
-        {
-            "id": 2,
-            "type": "Sad"
-        },
-        {
-            "id": 3,
-            "type": "Mad"
-        },
-        {
-            "id": 4,
-            "type": "Evil"
-        },
-        {
-            "id": 5,
-            "type": "Bugs"
-        },
-        {
-            "id": 6,
-            "type": "Current Events"
-        }
-    ],
-    "likes": [
-        {
-            "id": 1,
-            "userId": 1,
-            "postId": 1
-        },
-        {
-            "id": 2,
-            "userId": 1,
-            "postId": 2
-        },
-        {
-            "id": 3,
-            "userId": 1,
-            "postId": 4
-        },
-        {
-            "id": 4,
-            "userId": 2,
-            "postId": 6
-        },
-        {
-            "id": 5,
-            "userId": 2,
-            "postId": 3
-        },
-        {
-            "id": 6,
-            "userId": 2,
-            "postId": 5
-        },
-        {
-            "id": 7,
-            "userId": 3,
-            "postId": 1
-        },
-        {
-            "id": 8,
-            "userId": 3,
-            "postId": 5
-        },
-        {
-            "id": 9,
-            "userId": 4,
-            "postId": 5
-        },
-        {
-            "id": 10,
-            "userId": 5,
-            "postId": 1
-        },
-        {
-            "id": 11,
-            "userId": 5,
-            "postId": 2
-        },
-        {
-            "id": 12,
-            "userId": 5,
-            "postId": 3
-        },
-        {
-            "id": 13,
-            "userId": 5,
-            "postId": 6
-        }
-    ]
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "date": "12-23-24",
+      "title": "Boy Meets World",
+      "body": "Text Text Text Text Text Text Text Text",
+      "topicId": 3,
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "date": "12-24-24",
+      "title": "Girl Meets World",
+      "body": "Text Text Text Text Text Text Text Text",
+      "topicId": 2,
+      "userId": 2
+    },
+    {
+      "id": 3,
+      "date": "12-24-24",
+      "title": "Bug City",
+      "body": "Text Text Text Text Text Text Text Text",
+      "topicId": 5,
+      "userId": 3
+    },
+    {
+      "id": 4,
+      "date": "12-25-24",
+      "title": "INFINITE LOOP",
+      "body": "Text Text Text Text Text Text Text Text",
+      "topicId": 4,
+      "userId": 4
+    },
+    {
+      "id": 5,
+      "date": "12-25-24",
+      "title": "Am I the Best Programmer?",
+      "body": "Text Text Text Text Text Text Text Text",
+      "topicId": 1,
+      "userId": 5
+    },
+    {
+      "id": 6,
+      "date": "12-26-24",
+      "title": "First Post",
+      "body": "Text Text Text Text Text Text Text Text",
+      "topicId": 6,
+      "userId": 1
+    }
+  ],
+  "topics": [
+    {
+      "id": 1,
+      "type": "Happy"
+    },
+    {
+      "id": 2,
+      "type": "Sad"
+    },
+    {
+      "id": 3,
+      "type": "Mad"
+    },
+    {
+      "id": 4,
+      "type": "Evil"
+    },
+    {
+      "id": 5,
+      "type": "Bugs"
+    },
+    {
+      "id": 6,
+      "type": "Current Events"
+    }
+  ],
+  "likes": [
+    {
+      "id": 1,
+      "userId": 1,
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "postId": 2
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "postId": 4
+    },
+    {
+      "id": 4,
+      "userId": 2,
+      "postId": 6
+    },
+    {
+      "id": 5,
+      "userId": 2,
+      "postId": 3
+    },
+    {
+      "id": 6,
+      "userId": 2,
+      "postId": 5
+    },
+    {
+      "id": 7,
+      "userId": 3,
+      "postId": 1
+    },
+    {
+      "id": 8,
+      "userId": 3,
+      "postId": 5
+    },
+    {
+      "id": 9,
+      "userId": 4,
+      "postId": 5
+    },
+    {
+      "id": 10,
+      "userId": 5,
+      "postId": 1
+    },
+    {
+      "id": 11,
+      "userId": 5,
+      "postId": 2
+    },
+    {
+      "id": 12,
+      "userId": 5,
+      "postId": 3
+    },
+    {
+      "id": 13,
+      "userId": 5,
+      "postId": 6
+    }
+  ]
 }
