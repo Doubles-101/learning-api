@@ -35,6 +35,12 @@
       "fullName": "Will",
       "cohort": 24,
       "id": 6
+    },
+    {
+      "email": "StevieSteve@gmail.com",
+      "fullName": "Steve B",
+      "cohort": 100,
+      "id": 7
     }
   ],
   "posts": [
@@ -85,6 +91,14 @@
       "body": "Text Text Text Text Text Text Text Text",
       "topicId": 6,
       "userId": 1
+    },
+    {
+      "title": "Steve's First Post",
+      "body": "Hi, I'm Steve. Happy to be here!",
+      "topicId": 1,
+      "date": "2024-04-12T19:23:49.096Z",
+      "userId": 7,
+      "id": 7
     }
   ],
   "topics": [
@@ -135,11 +149,6 @@
       "postId": 6
     },
     {
-      "id": 5,
-      "userId": 2,
-      "postId": 3
-    },
-    {
       "id": 6,
       "userId": 2,
       "postId": 5
@@ -178,6 +187,21 @@
       "id": 13,
       "userId": 5,
       "postId": 6
+    },
+    {
+      "userId": 2,
+      "postId": 1,
+      "id": 14
+    },
+    {
+      "userId": 2,
+      "postId": 3,
+      "id": 15
+    },
+    {
+      "userId": 7,
+      "postId": 2,
+      "id": 16
     }
   ]
 }
