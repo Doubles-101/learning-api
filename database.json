@@ -2,9 +2,8 @@
   "users": [
     {
       "id": 1,
-      "fullName": "Willie Nelson",
-      "email": "dstoade0@cornell.edu",
-      "cohort": 70
+      "fullName": "Willie Nelson's Friend",
+      "cohort": "70"
     },
     {
       "id": 2,
@@ -99,6 +98,52 @@
       "date": "2024-04-12T19:23:49.096Z",
       "userId": 7,
       "id": 7
+    },
+    {
+      "title": "Itssssa new post",
+      "body": "Hello, its me",
+      "topicId": 1,
+      "date": "2024-04-15T14:45:04.916Z",
+      "userId": 7,
+      "id": 8
+    },
+    {
+      "title": "This is my Curren\\",
+      "body": "This should be let me be able to edit the post. HAHAHAHHAAH",
+      "topicId": 1,
+      "date": "2024-04-15T19:57:39.372Z",
+      "userId": 1,
+      "id": 9,
+      "likes": [],
+      "user": {
+        "id": 1,
+        "fullName": "Willie Nelson",
+        "email": "dstoade0@cornell.edu",
+        "cohort": 70
+      },
+      "topic": {
+        "id": 1,
+        "type": "Happy"
+      }
+    },
+    {
+      "title": "WHAT'SSSS UP?!?",
+      "body": "AYYYYYYY",
+      "topicId": 1,
+      "date": "2024-04-16T18:01:29.154Z",
+      "userId": 1,
+      "id": 10,
+      "likes": [],
+      "user": {
+        "id": 1,
+        "fullName": "Willie Nelson",
+        "email": "dstoade0@cornell.edu",
+        "cohort": 70
+      },
+      "topic": {
+        "id": 1,
+        "type": "Happy"
+      }
     }
   ],
   "topics": [
@@ -129,19 +174,9 @@
   ],
   "likes": [
     {
-      "id": 1,
-      "userId": 1,
-      "postId": 1
-    },
-    {
       "id": 2,
       "userId": 1,
       "postId": 2
-    },
-    {
-      "id": 3,
-      "userId": 1,
-      "postId": 4
     },
     {
       "id": 4,
@@ -202,6 +237,11 @@
       "userId": 7,
       "postId": 2,
       "id": 16
+    },
+    {
+      "userId": 1,
+      "postId": 4,
+      "id": 17
     }
   ]
 }
